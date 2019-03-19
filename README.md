@@ -37,12 +37,12 @@ List of Emojis for README.md files - https://github.com/onmyway133/emoji
 ## Zarp
 :moneybag:
 
-the program that automatically check system inførmation! The program was mede to help those who want their System Informartion straight out of the box!
+This is a program that automatically check system inførmation! The program was made to help those who want their System Informartion straight out of the box!
 
 ### What the program checks:
 1. Time of System / Area
 2. OS Information
--3. System / Platform Information
+3. System / Platform Information
 
 # How to Install
 
@@ -58,7 +58,7 @@ python3 CODE.py
 
 # License 
 
-[INSERT WORD HERE DONT FORGET](https://www.github.com/lin8x/fixme/license)
+[The Tapir](https://www.github.com/lin8x/fixme/license)
 
 # Donate :magnifying_glass:
 
