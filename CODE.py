@@ -42,16 +42,17 @@ def get_platform():
     }
 
 
-print"Welcome! Here's your system informatio! /n"
+print("Welcome! Here's your system informatio!")
 
-print("Your Local Time Zone: " + time.time() #Local time zone
+print("Your Local Time Zone: " + str((int(time.time())%86400))) #Local time zone
 
-print"your platform         " + get_platform()
+print("Your platform: " + str(get_platform())) #gives platform information
 
-print("Release Version       " + platform.release()) # gives the platform's machine
+print("Release Version: " + platform.release()) #gives the platform's machine
 
-print("System:               " + platform.system()) #nothing
+print("System: " + str(platform.system())) #gives system information
 
-print("Machine:              " + platform.machine()) #gives the release version
+print("Machine: " + str(platform.machine())) #gives the release version
 
-
+while (True):
+  os.system("ping google.com")
